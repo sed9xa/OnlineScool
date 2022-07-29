@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script type="text/javascript" src="./lib/jquery-3.3.1.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <img src="./img/logo.svg" alt="" class="logo" />
+            <nav class="header__nav">
+              <button class="nav__item nav__item-toggle">Курсы</button>
+              <button class="nav__item nav__item-toggle">Бесплатно</button>
+              <a href="#" class="nav__link nav__item">Контакты</a>
+              <button class="nav__profile nav__item">
+                <img src="./img/menu-logo.svg" alt="" class="nav__menu-img" />
+              </button>
+              <button class="nav__toggler nav__item">
+                <span></span><span></span><span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__bottom-inner">
+            <div class="header__bottom-content">
+              <h1 class="header__bottom-title">
+                ОНЛАЙН-КУРСЫ ПОДГОТОВКИ К ОГЭ
+              </h1>
+              <p class="header__bottom-text">
+                Хочешь сдать экзамены на максимальные баллы? Ты легко подтянешь
+                школьную программу 9-го класса до высокого уровня, занимаясь по
+                нашей системе.
+              </p>
+            </div>
+            <img src="/img/minecraft.png" alt="" class="header__bottom-img" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <article class="trial">
+      <div class="container">
+        <div class="trial__inner">
+          <h2 class="trial__title">Пробные уроки в ТЕМПЕ бесплатно!</h2>
+          <div class="trial__buttons">
+            <button class="trial__buttons-simple">Неделя бесплатно</button>
+            <button class="trial__buttons-complex">
+              <img
+                src="./img/trial-play.svg"
+                alt=""
+                class="trial__button-img"
+              />
+              <div class="trial__button-text">
+                <h6 class="trial__button-text-title">
+                  Что значит быть в Темпе
+                </h6>
+                <a href="#" class="trial__button-text--link">Смотреть</a>
+              </div>
+            </button>
+          </div>
+          <div class="trial__benefits">
+            <div class="trial__lightnings">
+              <div class="trial__lightning">
+                Оцените вашего преподавателя в деле
+              </div>
+              <div class="trial__lightning">
+                Протестируйте формат 15-ти минут
+              </div>
+              <div class="trial__lightning">
+                Найдите друзей среди других темперов
+              </div>
+            </div>
+            <img src="./img/call.svg" alt="" class="trial__phone" />
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="stages">
+      <div class="container">
+        <h2 class="stages__title">Как проходит обучение</h2>
+        <div class="stages__timeline">
+          <div class="stages__timeline-top">
+            <p class="stages__timeline-top--word">Устраняем пробелы</p>
+            <p class="stages__timeline-top--word">Закрепляем</p>
+            <p class="stages__timeline-top--word">Закрепляем</p>
+            <p class="stages__timeline-top--word">
+              Двигаемся к новым темам и вершинам
+            </p>
+          </div>
+          <div class="stages__timeline-line">
+            <div class="stages__timeline-dots"></div>
+            <div class="stages__timeline-dots"></div>
+            <div class="stages__timeline-dots"></div>
+            <div class="stages__timeline-dots"></div>
+            <div class="stages__timeline-dots"></div>
+            <div class="stages__timeline-dots"></div>
+            <div class="stages__timeline-dots"></div>
+            <div class="stages__timeline-dots"></div>
+            <div class="stages__timeline-dots"></div>
+          </div>
+          <div class="stages__timeline-bottom">
+            <p class="stages__timeline-bottom--word">
+              Определяем уровень
+            </p>
+            <p class="stages__timeline-bottom--word">Закрепляем</p>
+            <p class="stages__timeline-bottom--word">Тестируем</p>
+            <p class="stages__timeline-bottom--word">Закрепляем</p>
+            <p class="stages__timeline-bottom--word">Готово! Ты великолепен!</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="courses">
+      <div class="container">
+        <h2 class="courses__title">Курсы</h2>
+        <div class="courses__subjects">
+          <button class="courses__subject">Математика</button
+          ><button class="courses__subject">Русский язык</button
+          ><button class="courses__subject">Обществознание</button
+          ><button class="courses__subject">Физика</button
+          ><button class="courses__subject">Английский <br />язык</button>
+        </div>
+
+        <div class="courses__slider">
+          <div class="courses__description">
+            <div class="courses__description-container">
+              <div class="courses__description-title">Математика</div>
+              <div class="courses__description-benefits">
+                <div class="courses__description-benefit">
+                  Узнаете, как использовать методы упрощения
+                </div>
+                <div class="courses__description-benefit">
+                  Научитесь решать заковыристые задачи по математике
+                </div>
+                <div class="courses__description-benefit">
+                  Поймете, как писать подробные развернутые ответы
+                </div>
+              </div>
+            </div>
+
+            <div class="courses__description-arrows">
+              <div class="courses__description-arrow arrow-left">
+                <p class="arrow-text">
+                  Вы будете учиться на заданиях, максимально приближенных к
+                  тем,что будут на реальном ОГЭ
+                </p>
+              </div>
+              <div class="courses__description-arrow arrow-right">
+                <p class="arrow-text">
+                  После прохождения курсов в Школе Темп экзамен по математике
+                  уже не будет казаться таким сложным и пугающим!
+                </p>
+              </div>
+            </div>
+            <div class="courses__description-container">
+              <div class="courses__description-buttons">
+                <button class="courses__description-button black-button">
+                  Записаться</button
+                ><button class="courses__description-button white-button">
+                  Узнать подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="courses__description">
+            <div class="courses__description-container">
+              <div class="courses__description-title">Русский язык</div>
+              <div class="courses__description-benefits">
+                <div class="courses__description-benefit">
+                  Узнаете, как использовать методы упрощения
+                </div>
+                <div class="courses__description-benefit">
+                  Научитесь решать заковыристые задачи по математике
+                </div>
+                <div class="courses__description-benefit">
+                  Поймете, как писать подробные развернутые ответы
+                </div>
+              </div>
+            </div>
+
+            <div class="courses__description-arrows">
+              <div class="courses__description-arrow arrow-left">
+                <p class="arrow-text">
+                  Вы будете учиться на заданиях, максимально приближенных к
+                  тем,что будут на реальном ОГЭ
+                </p>
+              </div>
+              <div class="courses__description-arrow arrow-right">
+                <p class="arrow-text">
+                  После прохождения курсов в Школе Темп экзамен по математике
+                  уже не будет казаться таким сложным и пугающим!
+                </p>
+              </div>
+            </div>
+            <div class="courses__description-container">
+              <div class="courses__description-buttons">
+                <button class="courses__description-button black-button">
+                  Записаться</button
+                ><button class="courses__description-button white-button">
+                  Узнать подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="courses__description">
+            <div class="courses__description-container">
+              <div class="courses__description-title">Обществознание</div>
+              <div class="courses__description-benefits">
+                <div class="courses__description-benefit">
+                  Узнаете, как использовать методы упрощения
+                </div>
+                <div class="courses__description-benefit">
+                  Научитесь решать заковыристые задачи по математике
+                </div>
+                <div class="courses__description-benefit">
+                  Поймете, как писать подробные развернутые ответы
+                </div>
+              </div>
+            </div>
+
+            <div class="courses__description-arrows">
+              <div class="courses__description-arrow arrow-left">
+                <p class="arrow-text">
+                  Вы будете учиться на заданиях, максимально приближенных к
+                  тем,что будут на реальном ОГЭ
+                </p>
+              </div>
+              <div class="courses__description-arrow arrow-right">
+                <p class="arrow-text">
+                  После прохождения курсов в Школе Темп экзамен по математике
+                  уже не будет казаться таким сложным и пугающим!
+                </p>
+              </div>
+            </div>
+            <div class="courses__description-container">
+              <div class="courses__description-buttons">
+                <button class="courses__description-button black-button">
+                  Записаться</button
+                ><button class="courses__description-button white-button">
+                  Узнать подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="courses__description">
+            <div class="courses__description-container">
+              <div class="courses__description-title">Физика</div>
+              <div class="courses__description-benefits">
+                <div class="courses__description-benefit">
+                  Узнаете, как использовать методы упрощения
+                </div>
+                <div class="courses__description-benefit">
+                  Научитесь решать заковыристые задачи по математике
+                </div>
+                <div class="courses__description-benefit">
+                  Поймете, как писать подробные развернутые ответы
+                </div>
+              </div>
+            </div>
+
+            <div class="courses__description-arrows">
+              <div class="courses__description-arrow arrow-left">
+                <p class="arrow-text">
+                  Вы будете учиться на заданиях, максимально приближенных к
+                  тем,что будут на реальном ОГЭ
+                </p>
+              </div>
+              <div class="courses__description-arrow arrow-right">
+                <p class="arrow-text">
+                  После прохождения курсов в Школе Темп экзамен по математике
+                  уже не будет казаться таким сложным и пугающим!
+                </p>
+              </div>
+            </div>
+            <div class="courses__description-container">
+              <div class="courses__description-buttons">
+                <button class="courses__description-button black-button">
+                  Записаться</button
+                ><button class="courses__description-button white-button">
+                  Узнать подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="courses__description">
+            <div class="courses__description-container">
+              <div class="courses__description-title">Английский язык</div>
+              <div class="courses__description-benefits">
+                <div class="courses__description-benefit">
+                  Узнаете, как использовать методы упрощения
+                </div>
+                <div class="courses__description-benefit">
+                  Научитесь решать заковыристые задачи по математике
+                </div>
+                <div class="courses__description-benefit">
+                  Поймете, как писать подробные развернутые ответы
+                </div>
+              </div>
+            </div>
+
+            <div class="courses__description-arrows">
+              <div class="courses__description-arrow arrow-left">
+                <p class="arrow-text">
+                  Вы будете учиться на заданиях, максимально приближенных к
+                  тем,что будут на реальном ОГЭ
+                </p>
+              </div>
+              <div class="courses__description-arrow arrow-right">
+                <p class="arrow-text">
+                  После прохождения курсов в Школе Темп экзамен по математике
+                  уже не будет казаться таким сложным и пугающим!
+                </p>
+              </div>
+            </div>
+            <div class="courses__description-container">
+              <div class="courses__description-buttons">
+                <button class="courses__description-button black-button">
+                  Записаться</button
+                ><button class="courses__description-button white-button">
+                  Узнать подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="formats">
+      <div class="container">
+        <h2 class="formats__title">Форматы обучения</h2>
+        <div class="formats__rates">
+          <div class="formats__rate">
+            <div class="formats__rate-sale">
+              <p class="formats__rate-sale--word">Скидка</p>
+            </div>
+            <div class="formats__rate-container">
+              <h5 class="formats__rate-title">В ТЕМПЕ JORDAN</h5>
+              <div class="formats__rate-prices">
+                <del class="formats__rate-oldprice">6 700 Р</del>
+                <div class="formats__rate-newprice">5 360 Р</div>
+              </div>
+              <div class="formats__rate-benefits">
+                <div class="formats__rate-benefit">
+                  Занятия в микро-группе 4 человека
+                </div>
+                <div class="formats__rate-benefit">Личный куратор</div>
+                <div class="formats__rate-benefit">
+                  Личный кабинет с уроками и ДЗ
+                </div>
+                <div class="formats__rate-benefit">Пробные ОГЭ онлайн</div>
+              </div>
+              <button class="formats__rate-btn">Купить</button>
+            </div>
+          </div>
+          <div class="formats__rate">
+            <div class="formats__rate-sale">
+              <p class="formats__rate-sale--word">Скидка</p>
+            </div>
+            <div class="formats__rate-container">
+              <h5 class="formats__rate-title">
+                В ТЕМПЕ <br />
+                YODA
+              </h5>
+              <div class="formats__rate-prices">
+                <del class="formats__rate-oldprice">6 700 Р</del>
+                <div class="formats__rate-newprice">5 360 Р</div>
+              </div>
+              <div class="formats__rate-benefits">
+                <div class="formats__rate-benefit">
+                  Занятия в микро-группе 4 человека
+                </div>
+                <div class="formats__rate-benefit">Личный куратор</div>
+                <div class="formats__rate-benefit">
+                  Личный кабинет с уроками и ДЗ
+                </div>
+                <div class="formats__rate-benefit">Пробные ОГЭ онлайн</div>
+              </div>
+              <button class="formats__rate-btn">Купить</button>
+            </div>
+          </div>
+          <div class="formats__rate">
+            <div class="formats__rate-sale">
+              <p class="formats__rate-sale--word">Скидка</p>
+            </div>
+            <div class="formats__rate-container">
+              <h5 class="formats__rate-title">В ТЕМПЕ GAGARIN</h5>
+              <div class="formats__rate-prices">
+                <del class="formats__rate-oldprice">6 700 Р</del>
+                <div class="formats__rate-newprice">5 360 Р</div>
+              </div>
+              <div class="formats__rate-benefits">
+                <div class="formats__rate-benefit">
+                  Занятия в микро-группе 4 человека
+                </div>
+                <div class="formats__rate-benefit">Личный куратор</div>
+                <div class="formats__rate-benefit">
+                  Личный кабинет с уроками и ДЗ
+                </div>
+                <div class="formats__rate-benefit">Пробные ОГЭ онлайн</div>
+              </div>
+              <button class="formats__rate-btn">Купить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <div class="starwars">
+      <img src="./img/starwars.png" alt="" class="starwars__img" />
+    </div>
+    <article class="teachers">
+      <div class="container">
+        <h2 class="teachers__title">Преподаватели в ТЕМП</h2>
+        <div class="teachers__slider">
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <div class="teachers__item-subject--data teachers__item-data">
+                    Математика
+                  </div>
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <div
+                    class="teachers__item-university--data teachers__item-data"
+                  >
+                    МГУ
+                  </div>
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <div class="teachers__item-score--data teachers__item-data">
+                    92 балла
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <div class="teachers__item-subject--data teachers__item-data">
+                    Математика
+                  </div>
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <div
+                    class="teachers__item-university--data teachers__item-data"
+                  >
+                    МГУ
+                  </div>
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <div class="teachers__item-score--data teachers__item-data">
+                    92 балла
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <span class="teachers__item-subject--data teachers__item-data"
+                    >Математика</span
+                  >
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <span
+                    class="teachers__item-university--data teachers__item-data"
+                    >МГУ</span
+                  >
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <span class="teachers__item-score--data teachers__item-data"
+                    >92 балла</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <span class="teachers__item-subject--data teachers__item-data"
+                    >Математика</span
+                  >
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <span
+                    class="teachers__item-university--data teachers__item-data"
+                    >МГУ</span
+                  >
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <span class="teachers__item-score--data teachers__item-data"
+                    >92 балла</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <span class="teachers__item-subject--data teachers__item-data"
+                    >Математика</span
+                  >
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <span
+                    class="teachers__item-university--data teachers__item-data"
+                    >МГУ</span
+                  >
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <span class="teachers__item-score--data teachers__item-data"
+                    >92 балла</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <span class="teachers__item-subject--data teachers__item-data"
+                    >Математика</span
+                  >
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <span
+                    class="teachers__item-university--data teachers__item-data"
+                    >МГУ</span
+                  >
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <span class="teachers__item-score--data teachers__item-data"
+                    >92 балла</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <span class="teachers__item-subject--data teachers__item-data"
+                    >Математика</span
+                  >
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <span
+                    class="teachers__item-university--data teachers__item-data"
+                    >МГУ</span
+                  >
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <span class="teachers__item-score--data teachers__item-data"
+                    >92 балла</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <span class="teachers__item-subject--data teachers__item-data"
+                    >Математика</span
+                  >
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <span
+                    class="teachers__item-university--data teachers__item-data"
+                    >МГУ</span
+                  >
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <span class="teachers__item-score--data teachers__item-data"
+                    >92 балла</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachers__slider-item">
+            <div class="teachers__item-container">
+              <img
+                src="./img/teachers-img.svg"
+                alt=""
+                class="teachers__item-img"
+              />
+              <div class="teachers__item-names">
+                <p class="teachers__item-name">Имя</p>
+                <p class="teachers__item-surname">Фамилия</p>
+              </div>
+              <div class="teachers__item-info">
+                <div class="teachers__item-subject">
+                  Предмет:
+                  <span class="teachers__item-subject--data teachers__item-data"
+                    >Математика</span
+                  >
+                </div>
+                <div class="teachers__item-university">
+                  ВУЗ:
+                  <span
+                    class="teachers__item-university--data teachers__item-data"
+                    >МГУ</span
+                  >
+                </div>
+                <div class="teachers__item-score">
+                  Баллы на ЕГЭ:
+                  <span class="teachers__item-score--data teachers__item-data"
+                    >92 балла</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="control">
+      <div class="container">
+        <h3 class="control__title">Контроль качества преподавания</h3>
+        <div class="control__timeline">
+          <div class="conrol__timeline-line">
+            <div class="control__timeline-dot"></div>
+            <div class="control__timeline-dot"></div>
+            <div class="control__timeline-dot"></div>
+            <div class="control__timeline-dot"></div>
+          </div>
+          <div class="control__timeline-stages">
+            <div class="control__timeline-stage">4 ступени отбора</div>
+            <div class="control__timeline-stage">
+              Методическое <br />
+              обучение
+            </div>
+            <div class="control__timeline-stage">
+              Ежегодная предметная <br />
+              аттестация
+            </div>
+            <div class="control__timeline-stage">
+              Контроль результатов <br />
+              учеников
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">Отзывы наших учеников</h2>
+        <div class="review__slider">
+          <div class="review__slider-item">
+            <img
+              src="./img/review-img.png"
+              alt=""
+              class="review__slider-item--img"
+            />
+          </div>
+          <div class="review__slider-item">
+            <img
+              src="./img/review-img.png"
+              alt=""
+              class="review__slider-item--img"
+            />
+          </div>
+          <div class="review__slider-item">
+            <img
+              src="./img/review-img.png"
+              alt=""
+              class="review__slider-item--img"
+            />
+          </div>
+          <div class="review__slider-item">
+            <img
+              src="./img/review-img.png"
+              alt=""
+              class="review__slider-item--img"
+            />
+          </div>
+        </div>
+      </div>
+    </article>
+    <div class="request">
+      <img src="./img/request-img.png" alt="" class="request-img" />
+      <div class="container">
+        <div class="request-inner">
+          <div class="request__textblock">
+            <h4 class="request__textblock-title">
+              Займите свое место в группе, тебя ждут великие дела!
+            </h4>
+            <p class="request__textblock-text">
+              Оставьте свой номер телефона, и мы вам позвоним
+            </p>
+          </div>
+          <form class="request__form">
+            <input type="text" class="request__form-name" placeholder="Имя" />
+            <input
+              type="number"
+              class="request__form-phone"
+              placeholder="Телефон"
+            />
+            <div class="request-check">
+              <input
+                type="checkbox"
+                name="agree"
+                id="agree"
+                class="request__form-checkbox"
+              />
+              <label for="agree"
+                >Я согласен с условиями обработки персональных данных</label
+              >
+            </div>
+
+            <button type="submit" class="request__form-btn">
+              Отправить заявку
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <article class="contacts">
+      <img src="/img/contacts-img.png" alt="" class="contacts__bgimg" />
+      <div class="container">
+        <div class="contacts__inner">
+          <h2 class="contacts__title">Контакты</h2>
+          <div class="contacts__opportunities">
+            <div class="contacts__opportunity">
+              <p class="contacts__opportunities-name">Написать нам</p>
+              <a href="#" class="contacts__opportunities-link"
+                >tempschool@bk.ru
+              </a>
+            </div>
+            <div class="contacts__opportunity">
+              <p class="contacts__opportunities-name">Позвонить нам</p>
+              <a href="#" class="contacts__opportunities-link"
+                >+7 906 600 44 48</a
+              >
+            </div>
+            <div class="contacts__opportunity">
+              <p class="contacts__opportunities-name">Мы в соцсетях</p>
+              <a href="#" class="contacts__opportunities-link"
+                ><img
+                  src="/img/instagram.svg"
+                  alt=""
+                  class="contacts__opportunities-link--img"
+              /></a>
+              <a href="#" class="contacts__opportunities-link"
+                ><img
+                  src="/img/facebook.svg"
+                  alt=""
+                  class="contacts__opportunities-link--img"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__block">
+            <a href="#" class="footer__logo"
+              ><img src="/img/logo.svg" alt="" class="footer__logo-img"
+            /></a>
+            <button type="submit" class="footer__btn">Оставить заявку</button>
+          </div>
+          <div class="footer__links">
+            <ul class="footer__menu">
+              <li class="footer__menu-item">Главная</li>
+              <li class="footer__menu-item">Курсы</li>
+              <li class="footer__menu-item">Отзывы</li>
+              <li class="footer__menu-item">Контакты</li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">ЕГЭ</li>
+              <li class="footer__menu-item">ОГЭ</li>
+              <li class="footer__menu-item">Школьные предметы</li>
+              <li class="footer__menu-item">Английский язык</li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">Форма обратной связи</li>
+              <li class="footer__menu-item">Работа преподавателем</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
